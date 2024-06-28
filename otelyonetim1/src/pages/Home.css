@@ -1,0 +1,219 @@
+
+.home-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.header{
+  background-color: #839fbe;
+}
+
+.filter-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-form form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-form label {
+  font-weight: bold;
+}
+
+.filter-form input[type='number'],
+.filter-form input[type='date'],
+.filter-form select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.filter-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-form button:hover {
+  background-color: #0056b3;
+}
+
+.filter-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter-options button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-options button:hover {
+  background-color: #218838;
+}
+
+.room-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.room-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.room-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+.room-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.room-card p {
+  margin-bottom: 5px;
+}
+
+.room-status {
+  font-weight: bold;
+}
+
+.room-status.boş {
+  color: #28a745; 
+}
+
+.room-status.dolu {
+  color: #dc3545;
+}
+
+.room-card button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-card button:hover {
+  background-color: #0056b3;
+}
+
+.reservation-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.reservation-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reservation-form label {
+  font-weight: bold;
+}
+
+.reservation-form input[type='text'],
+.reservation-form input[type='date'] {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-form button:hover {
+  background-color: #0056b3;
+}
+
+.add-room-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.add-room-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.add-room-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-room-form label {
+  font-weight: bold;
+}
+
+.add-room-form input[type='text'],
+.add-room-form input[type='number'],
+.add-room-form select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-room-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-room-form button:hover {
+  background-color: #0056b3;
+}
